@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../libs/scrollreveal/scrollreveal.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.14.0/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="../libs/glide/glide.core.css">
+    <link rel="stylesheet" href="../libs/glide/glide.theme.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>响应式布局</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">刘安博的空间</div>
+        <nav>
+            <ul class="clearfix">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about-us">关于我们</a></li>
+                <li><a href="#showcases">成功案例</a></li>
+                <li><a href="#service">服务流程</a></li>
+                <li><a href="#team-intro">团队介绍</a></li>
+                <li><a href="#conpany-activities">公司动态</a></li>
+            </ul>
+            <i class="fas fa-search"></i>
+        </nav>
+        <div class="menu">
+            <div class="menu-line1"></div>
+            <div class="menu-line2"></div>
+            <div class="menu-line3"></div>
+        </div>
+    </header>
+    <div id="home" class="glide">
+        <div class="glide__track" data-glide-el="track">
+            <div class="glide__slides">
+                <div class="glide__slide">
+                    <!-- 自定义 -->
+                    <div class="slide-caption">
+                        <h1>阿斯顿法国和接口类</h1>
+                        <h3>QWERTYUI偶怕是的法规和健康两站下车VB你插入不退一步你让他也不能不同意不能不应该被回娘家不同意不和你就</h3>
+                        <button class="explore-btn">探索更多</button>
+                    </div>
+                    <div class="backdrop"></div>
+                    <img src="../assets/images/1.jpg" alt="">
+                </div>
+                <div class="glide__slide">
+                    <!-- 自定义 -->
+                    <div class="slide-caption left">
+                        <h1>QWERTYUI都是</h1>
+                        <h3>门板不初学乍练空间和广泛地撒泼一一天热情法国红酒扩绿绿绿绿法国红酒的染发提供有浑然TV也不能门禁卡从不应该不会呢</h3>
+                        <button class="explore-btn">探索更多</button>
+                    </div>
+                    <div class="backdrop"></div>
+                    <!-- video先静音在播放 -->
+                    <video src="../assets/videos/1.mp4" muted autoplay loop></video>
+                </div>
+            </div>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<"><</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">></button>
+        </div>
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+            <button class="glide__bullet" data-glide-dir="=0"></button>
+            <button class="glide__bullet" data-glide-dir="=1"></button>
+        </div>
+    </div>
+    <div class="content-wrapper">
+        <section id="about-us" class="about-us">
+            <h2 class="title1">关于我们</h2>
+            <p class="intro">请按照网上希尔顿吃软饭不通过毕业后怒江面孔凉皮</p>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4 class="feature-title">品牌创意</h4>
+                    <p class="feature-content">的地方功能凸显出不绘笔江南他人的小地方规划不太热线</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-chart-line"></i>
+                    <h4 class="feature-title">品牌创意</h4>
+                    <p class="feature-content">的地方功能凸显出不绘笔江南他人的小地方规划不太热线</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-shopping-cart"></i>
+                    <h4 class="feature-title">品牌创意</h4>
+                    <p class="feature-content">的地方功能凸显出不绘笔江南他人的小地方规划不太热线</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-desktop"></i>
+                    <h4 class="feature-title">品牌创意</h4>
+                    <p class="feature-content">的地方功能凸显出不绘笔江南他人的小地方规划不太热线</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h4 class="feature-title">品牌创意</h4>
+                    <p class="feature-content">的地方功能凸显出不绘笔江南他人的小地方规划不太热线</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4 class="feature-title">品牌创意</h4>
+                    <p class="feature-content">的地方功能凸显出不绘笔江南他人的小地方规划不太热线</p>
+                </div>
+
+            </div>
+        </section>
+        <section id="showcases" class="showcases section-bg">
+            <h2 class="title1">成功案例</h2>
+            <div class="filter-btns">
+                <button class="filter-btn active" data-filter="*">全部</button>
+                <button class="filter-btn" data-filter=".web">WEB</button>
+                <button class="filter-btn" data-filter=".mobile">移动</button>
+                <button class="filter-btn" data-filter=".science">科研</button>
+            </div>
+            <div class="cases">
+                <div class="case-item web science"><img src="../assets/images/1.jpg" alt=""></div>
+                <div class="case-item mobile science"><img src="../assets/images/1.jpg" alt=""></div>
+                <div class="case-item web"><img src="../assets/images/1.jpg" alt=""></div>
+                <div class="case-item mobile science"><img src="../assets/images/1.jpg" alt=""></div>
+                <div class="case-item web"><img src="../assets/images/1.jpg" alt=""></div>
+                <div class="case-item mobile science"><img src="../assets/images/1.jpg" alt=""></div>
+                <div class="case-item web science"><img src="../assets/images/1.jpg" alt=""></div>
+                <div class="case-item mobile"><img src="../assets/images/1.jpg" alt=""></div>
+            </div>
+        </section>
+        <section id="service" class="service">
+            <h2 class="title1">服务流程</h2>
+            <p class="intro">亲爱的翻译家那边VCD色认同与看科技部不辅导费体育局</p>
+            <div class="services">
+                <div class="service-item">
+                    <i class="fas fa-comments"></i>
+                    <h2 class="service-title">需要沟通</h2>
+                    <p class="service-content">去网吧赤壁湖入口进不进断简残编把车开进而为</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-comments"></i>
+                    <h2 class="service-title">需要沟通</h2>
+                    <p class="service-content">去网吧赤壁湖入口进不进断简残编把车开进而为</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-file-signature"></i>
+                    <h2 class="service-title">需要沟通</h2>
+                    <p class="service-content">去网吧赤壁湖入口进不进断简残编把车开进而为</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-user"></i>
+                    <h2 class="service-title">需要沟通</h2>
+                    <p class="service-content">去网吧赤壁湖入口进不进断简残编把车开进而为</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                    <h2 class="service-title">需要沟通</h2>
+                    <p class="service-content">去网吧赤壁湖入口进不进断简残编把车开进而为</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-user-check"></i>
+                    <h2 class="service-title">需要沟通</h2>
+                    <p class="service-content">去网吧赤壁湖入口进不进断简残编把车开进而为</p>
+                </div>
+            </div>
+        </section>
+        <section id="team-intro" class="team-intro section-bg">
+            <h2 class="title1">团队介绍</h2>
+            <div class="team-members">
+                <div class="team-member">
+                    <div class="profile-image">
+                        <img src="../assets/images/1.jpg" alt="">
+                    </div>
+                    <h4 class="name">张子琪</h4>
+                    <p class="position">前端工程师</p>
+                    <ul class="social-links">
+                        <li><a href=""><i class="fab fa-weixin"></i></a></li>
+                        <li><a href=""><i class="fab fa-weibo"></i></a></li>
+                        <li><a href=""><i class="fab fa-github"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="team-member">
+                    <div class="profile-image">
+                        <img src="../assets/images/1.jpg" alt="">
+                    </div>
+                    <h4 class="name">张子琪</h4>
+                    <p class="position">前端工程师</p>
+                    <ul class="social-links">
+                        <li><a href=""><i class="fab fa-weixin"></i></a></li>
+                        <li><a href=""><i class="fab fa-weibo"></i></a></li>
+                        <li><a href=""><i class="fab fa-github"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="team-member">
+                    <div class="profile-image">
+                        <img src="../assets/images/1.jpg" alt="">
+                    </div>
+                    <h4 class="name">张子琪</h4>
+                    <p class="position">前端工程师</p>
+                    <ul class="social-links">
+                        <li><a href=""><i class="fab fa-weixin"></i></a></li>
+                        <li><a href=""><i class="fab fa-weibo"></i></a></li>
+                        <li><a href=""><i class="fab fa-github"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="team-member">
+                    <div class="profile-image">
+                        <img src="../assets/images/1.jpg" alt="">
+                    </div>
+                    <h4 class="name">张子琪</h4>
+                    <p class="position">前端工程师</p>
+                    <ul class="social-links">
+                        <li><a href=""><i class="fab fa-weixin"></i></a></li>
+                        <li><a href=""><i class="fab fa-weibo"></i></a></li>
+                        <li><a href=""><i class="fab fa-github"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="data-section">
+            <div class="data-piece">
+                <i class="fas fa-code"></i>
+                <div class="num">156</div>
+                <div class="data-desc">行代码</div>
+            </div>
+            <div class="data-piece">
+                <i class="fas fa-award"></i>
+                <div class="num">288</div>
+                <div class="data-desc">个奖项</div>
+            </div>
+            <div class="data-piece">
+                <i class="fas fa-laugh-wink"></i>
+                <div class="num">1588</div>
+                <div class="data-desc">位客户</div>
+            </div>
+            <div class="data-piece">
+                <i class="fas fa-folder"></i>
+                <div class="num">200</div>
+                <div class="data-desc">个项目</div>
+            </div>
+        </section>
+        <section id="conpany-activities" class="conpany-activities">
+            <h2 class="title1">公司动态</h2>
+            <p class="intro">威尔与看金湖广场血债血偿</p>
+            <div class="activities">
+                <div class="activity">
+                    <div class="act-image-wrapper">
+                        <img src="../assets/images/1.jpg" alt="">
+                    </div>
+                    <div class="meta">
+                        <p class="data-published">
+                            <i class="far fa-calendar"></i>2019年12月1日
+                        </p>
+                        <p class="comments">
+                            <i class="far fa-comments"></i>33条评论
+                        </p>
+                    </div>
+                    <h2 class="act-title">哎哎是啥得到各个</h2>
+                    <article>阿瓦尔体育为对方过后线程VB你空间和土工布染发染发膏匟土工布而与计划国风大赏的风格胡</article>
+                    <button class="readmore-btn">阅读更多</button>
+                </div>
+                <div class="activity">
+                    <div class="act-image-wrapper">
+                        <img src="../assets/images/1.jpg" alt="">
+                    </div>
+                    <div class="meta">
+                        <p class="data-published">
+                            <i class="far fa-calendar"></i>2019年12月1日
+                        </p>
+                        <p class="comments">
+                            <i class="far fa-comments"></i>33条评论
+                        </p>
+                    </div>
+                    <h2 class="act-title">哎哎是啥得到各个</h2>
+                    <article>阿瓦尔体育为对方过后线程VB你空间和土工布染发染发膏匟土工布而与计划国风大赏的风格胡</article>
+                    <button class="readmore-btn">阅读更多</button>
+                </div>
+                <div class="activity">
+                    <div class="act-image-wrapper">
+                        <img src="../assets/images/1.jpg" alt="">
+                    </div>
+                    <div class="meta">
+                        <p class="data-published">
+                            <i class="far fa-calendar"></i>2019年12月1日
+                        </p>
+                        <p class="comments">
+                            <i class="far fa-comments"></i>33条评论
+                        </p>
+                    </div>
+                    <h2 class="act-title">哎哎是啥得到各个</h2>
+                    <article>阿瓦尔体育为对方过后线程VB你空间和土工布染发染发膏匟土工布而与计划国风大赏的风格胡</article>
+                    <button class="readmore-btn">阅读更多</button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-menus">
+            <div class="contact-us">
+                <p class="menu-title">联系我们</p>
+                <p>按时发个发广告是的法规环境的风格胡的算法都不能</p>
+                <p>的TV也不能看对方过后就的风格胡</p>
+                <p>筛选出人头VB一年电饭锅和认同与</p>
+                <p>地方有改变你认同与日推</p>
+            </div>
+            <div class="service-menu footer-menu">
+                <p class="menu-title">服务概览</p>
+                <ul class="menu-items">
+                    <li><a href="#">网站建设</a></li>
+                    <li><a href="#">域名购买</a></li>
+                    <li><a href="#">网页设计</a></li>
+                    <li><a href="#">移动应用</a></li>
+                </ul>
+            </div>
+            <div class="service-menu footer-menu">
+                <p class="menu-title">成功案例</p>
+                <ul class="menu-items">
+                    <li><a href="#">网站建设</a></li>
+                    <li><a href="#">域名购买</a></li>
+                    <li><a href="#">网页设计</a></li>
+                    <li><a href="#">移动应用</a></li>
+                </ul>
+            </div>
+            <div class="service-menu footer-menu">
+                <p class="menu-title">公司动态</p>
+                <ul class="menu-items">
+                    <li><a href="#">网站建设</a></li>
+                    <li><a href="#">域名购买</a></li>
+                    <li><a href="#">网页设计</a></li>
+                    <li><a href="#">移动应用</a></li>
+                </ul>
+            </div>
+            <div class="service-menu footer-menu">
+                <p class="menu-title">帮助与支持</p>
+                <ul class="menu-items">
+                    <li><a href="#">网站建设</a></li>
+                    <li><a href="#">域名购买</a></li>
+                    <li><a href="#">网页设计</a></li>
+                    <li><a href="#">移动应用</a></li>
+                </ul>
+            </div>
+            <p class="icp-info">阿萨德不跟你换</p>
+            <p class="rights">沃尔特与看从零空间和广泛地</p>
+            <div class="scrollToTop">
+                <a href="#home"><i class="fas fa-chevron-up"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="../libs/anime/anime.js"></script>
+    <script src="../libs/glide/glide.js"></script>
+    <script src="../libs/isotope/isotope.js"></script>
+    <script src="../libs/smooth-scroll/smooth-scroll.polyfills.js"></script>
+    <script src="../js/index.js"></script>
+    <script>
+        document.onload = function() {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "index.php");
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState >= 200 && xhr.readyState <= 300) {
+                    if (xhr.status = 4) {
+
+                    }
+                }
+            }
+            xhr.send();
+        }
+    </script>
+</body>
+
+</html>
